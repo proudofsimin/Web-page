@@ -13,7 +13,8 @@
 }
 
 .jumbotron {
-    width: 100%
+    background: url(images/NTU-sky.jpg);
+    background-size: contain;
 }
 
 header {
@@ -109,5 +110,17 @@ ul:after {
 }
 
 .post {
-    text-align: censter;
+    text-align: center;
+}
+
+
+/*各分頁*/
+
+.subpost h1 {
+    text-align: center;
+    font-size: 20px;
+}
+
+.profile {
+    margin: 13%
 }
